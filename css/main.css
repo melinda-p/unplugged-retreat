@@ -93,7 +93,13 @@ textarea {
   color: #000;
   padding: 0.2em 0;
 }
-
+.hero-area {
+  background-image: url('../img/jake-melara-30679-unsplash.png');
+  background: cover;
+}
+.form h4 a {
+  background: url('../img/button.png');
+}
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -262,4 +268,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
