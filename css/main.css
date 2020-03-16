@@ -138,7 +138,12 @@ p {
   font-size: .875em;
   line-height: 1.285;
 }
-
+img {
+  width: 100%;
+}
+figure {
+  margin: 0;
+}
 address {
  font-style: normal;
 }
@@ -177,7 +182,13 @@ header .content-wrapper {
   width: 100%;
   margin: 10px 0 20px 0;
 }
-
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 header nav {
   width: 60%;
   font-size: 1.125em;
@@ -266,6 +277,7 @@ aside {
 
 aside .form{
   margin-top: 30px;
+  padding-bottom: 1em;
 }
 
 input[type=text] {
@@ -296,15 +308,22 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/rawpixel-unsplash1.jpg') center no-repeat #333;
+  background-size: cover;
+
 }
 
 .features h2 {
-  margin-bottom: 60px;
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: center;
+  padding-left: .225em;
 }
 
 .features article {
   width: 63%;
   margin: 30px 0;
+
 }
 
 .features .features-items {
@@ -329,18 +348,22 @@ input[type=button] {
 }
 
 .reviews h2 {
-  margin-bottom: 40px;
+  margin-bottom: .01em;
   line-height: 1;
 }
 .iframe {
-  background: url('../img/omar._1.jpg');
-  background: center;
-  background-size: cover;
+  width: 88%;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .reviews h3 {
   width: 55%;
-  margin: 20px 0;
+  margin: 16px 0;
+  padding-top: 1em;
+}
+.reviews p {
+  padding-bottom: 2em;
 }
 
 /* ==========================================================================
@@ -682,7 +705,9 @@ h3 {
   header {
     padding: 15px 0;
   }
-
+header figure {
+  width: 25%;
+}
   .content-wrapper {
     max-width: 960px;
   }
