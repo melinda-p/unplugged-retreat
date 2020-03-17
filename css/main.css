@@ -333,8 +333,14 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
 }
-
-.features p {
+.features article i {
+  font-size: 3.75em;
+    margin-bottom: 40px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.features article p {
   text-align: center;
   margin: 0;
 }
@@ -615,6 +621,7 @@ input[type=button] {
     justify-content: space-between;
   }
 
+
   .reviews h2 {
     width: 85%;
   }
@@ -774,8 +781,10 @@ input[type=button] {
     padding-bottom: 50px;
   }
 
+
+  .reviews article figure,
   .reviews article div {
-    width: 42%;
+    width: 49%;
   }
 
   footer h4 {
